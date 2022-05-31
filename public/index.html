@@ -219,10 +219,11 @@
       
         </button>
 
-        <button type="button" class="btn btn-warning btn-sm" id="Share">
+        <button type="button" class="btn btn-warning btn-sm" id="Share" class="button" data-sharer="whatsapp" data-title="Checkout Sharer.js!" data-url="https://whiteboar.herokuapp.com/">
       <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
   <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
 </svg>
+        </button>
         </button>
         <label for="colour" style="position: absolute">Colour : </label>
         <input id="colour-picker" value="#000000" style="width: 100px" class="jscolor {width:243, height:150, position:'right', borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666'}" />
@@ -272,6 +273,9 @@
     </div>
 
     <!-- Script files -->
+    <script src="path/to/sharer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+    <g:sharetoclassroom url="http://url-to-share" size="32"></g:sharetoclassroom>
     <script src="jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="jscolor/jscolor.min.js"></script>
