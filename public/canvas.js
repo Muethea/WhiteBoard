@@ -65,10 +65,6 @@
                     //Choose colour picker
                     colorPicked = $("#colour-picker").val();
 
-                    $("#colour-picker").change(function() {
-                        colorPicked = $("#colour-picker").val();
-                    });
-
                     //Choose line Width
                     lineWidthPicked = $("#line-Width").val();
 
